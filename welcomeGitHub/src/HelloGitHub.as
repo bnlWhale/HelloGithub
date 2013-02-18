@@ -7,7 +7,7 @@ package
 		private var ws:WelcomeSprite;
 		public function HelloGitHub()
 		{
-			trace('this is first project on Git');
+			trace('this is first project on Git and change');
 			init();
 		}
 		private function init():void{
