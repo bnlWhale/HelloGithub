@@ -1,4 +1,4 @@
-package
+﻿package
 {
 	import flash.display.Sprite;
 	import flash.text.TextField;
@@ -15,6 +15,7 @@ package
 		private function init():void{
 			welcomeTxt = new TextField();
 			welcomeTxt.text = 'welcome to GitHub';
+			welcomeTxt.text = 'second change on first_branch';
 			this.addChild(welcomeTxt);
 		}
 	}
